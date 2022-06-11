@@ -1,0 +1,232 @@
+@media (max-width: 480px){
+    .Container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Container h1{
+        color: #212121;
+        margin: 20px 0 20px 0 ;
+    }
+    .Context{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .AreaSinopse{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        padding: 20px;
+        background-color: #f0b7c2;
+        
+    }
+    
+    .Context img{
+        width: 100%;
+        height: 50%;
+        display: flex;
+    }
+    
+    .Sinopse{
+        font-weight: bold;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .SinopseContext{
+        font-size: 12px;
+    }
+    
+    .AreaBtn{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .AreaBtn button{
+        width: 45%;
+        height: 30px;
+        border: 0;
+        background-color: #9e0a28;
+        color: #fff;
+        border-radius: 3px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    
+    .AreaBtn a{
+        width: 45%;
+        height: 30px;
+        border: 0;
+        background-color: #9e0a28;
+        color: #fff;
+        border-radius: 3px;
+        font-size: 13px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .Container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Container h1{
+        color: #212121;
+        margin: 20px 0 20px 0 ;
+    }
+    .Context{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .AreaSinopse{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        padding: 20px;
+        background-color: #f0b7c2;
+        
+    }
+    
+    .Context img{
+        width: 100%;
+        height: 50%;
+    }
+    
+    .Sinopse{
+        font-weight: bold;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .SinopseContext{
+        font-size: 12px;
+    }
+    
+    .AreaBtn{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-top: 10px;
+    }
+    .AreaBtn button{
+        width: 25%;
+        height: 30px;
+        border: 0;
+        background-color: #9e0a28;
+        color: #fff;
+        border-radius: 3px;
+        font-size: 13px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    
+    .AreaBtn a{
+        width: 25%;
+        height: 30px;
+        border: 0;
+        background-color: #9e0a28;
+        color: #fff;
+        border-radius: 3px;
+        font-size: 13px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+
+    }
+    
+}
+
+@media (min-width: 769px){
+    .Container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+        margin-right: 80px;
+        
+    }
+    
+    .Container h1{
+        color: #212121;
+        margin: 20px 0 20px 0 ;
+    }
+    .Context{
+        display: flex;
+        flex-direction: row;
+        height: 57vh;
+    }
+    
+    .AreaSinopse{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        padding: 20px;
+        background-color: #f0b7c2;
+        
+    }
+    
+    .Context img{
+        width: 60vw;
+        height: 100%;
+        display: flex;
+    }
+    
+    .Sinopse{
+        font-weight: bold;
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+
+    .SinopseContext{
+        font-size: 14px;
+    }
+    
+    .AreaBtn{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        height: 100%;
+        margin-top: 10px;
+    }
+    .AreaBtn button{
+        width: 100px;
+        height: 40px;
+        border: 0;
+        background-color: #9e0a28;
+        color: #fff;
+        border-radius: 6px;
+        margin-right: 12px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    .AreaBtn a{
+        cursor: pointer;
+        font-size: 15px;
+        display: flex;
+        width: 100px;
+        height: 40px;
+        border: 0;
+        background-color: #9e0a28;
+        color: #fff;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+}
+
+

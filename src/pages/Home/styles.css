@@ -1,0 +1,174 @@
+@media (min-width: 100px) and (max-width: 300px) {
+    .Container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .AreaFilme{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .AreaFilmeText{
+        margin-top: 20px;
+        margin-bottom: 8px;
+        font-size: 17px;
+    }
+    .AreaFilmePicture{
+        width: 100%;
+        height: 15vh;
+    }
+    
+    .AreaFilme a{
+        display: flex;
+        background-color: #ed254e;
+        text-decoration: none;
+        color: #fff;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 7px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+    
+    .AreaFilme a:hover{
+        display: flex;
+        background-color: #ed254e;
+        text-decoration: none;
+        color: #fff;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 7px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+    .Loading{
+        width: 100vw;
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 301px) {
+    .Container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .AreaFilme{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .AreaFilmeText{
+        margin-top: 35px;
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+    .AreaFilmePicture{
+        width: 100%;
+        height: 23vh;
+    }
+    
+    .AreaFilme a{
+        display: flex;
+        background-color: #ed254e;
+        text-decoration: none;
+        color: #fff;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 13px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+    
+    .AreaFilme a:hover{
+        display: flex;
+        background-color: #e03a5b;
+        text-decoration: none;
+        color: #fff;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 13px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+    .Loading{
+        width: 100vw;
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 769px) {
+
+.Container{
+    display: flex;
+    flex-direction: column;
+}
+
+.AreaFilme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.AreaFilmeText{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.AreaFilmePicture{
+    width: 700px;
+    height: 50vh;
+}
+
+.AreaFilme a{
+    display: flex;
+    background-color: #ed254e;
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.AreaFilme a:hover{
+    display: flex;
+    background-color: #e03a5b;
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.Loading{
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+}
